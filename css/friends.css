@@ -1,44 +1,16 @@
-.friend {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.friends .friends__header {
 }
 
-.friend .friend__avatar {
-  width: 50px;
-  border-radius: 38%;
-}
-.friend .g-avatar {
-  width: 70px;
-}
-
-.friend .m-avatar {
-  width: 60px;
+.friends .friends__plus {
+  padding: 20px 0px;
+  border-bottom: 1px solid #f7f7f7;
+  border-top: 1px solid #f7f7f7;
+  margin: 20px 0px;
 }
 
-.friend .friend__column {
-  display: flex;
-  align-items: center;
-}
-.friend .friend__avatar {
-  margin-right: 15px;
-}
-
-.friend .friend__content .friend__name {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.friend__content .friend__status,
-.friend .chat__timestamp {
-  font-size: 12px;
-}
-.friend__content .friend__bottom-text,
-.friend__content .friend__status,
-.friend .chat__timestamp {
-  opacity: 0.6;
-}
-
-.friend__content .friend__bottom-text {
+.friends__plus .friends__plus-title,
+.friends__list .friends__title {
   font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 12px;
 }
